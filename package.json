@@ -1,0 +1,26 @@
+{
+  "name": "sql-tracker",
+  "version": "1.0.0",
+  "description": "command line app that displays employee info in a grid",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prestongeyer713/sql-tracker.git"
+  },
+  "author": "Preston Geyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prestongeyer713/sql-tracker/issues"
+  },
+  "homepage": "https://github.com/Prestongeyer713/sql-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "promise-mysql": "^5.0.3"
+  }
+}
